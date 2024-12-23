@@ -7,7 +7,7 @@ public class calGrade {
         Scanner scanner = new Scanner(System.in);
         calGrade calculator = new calGrade();
 
-        // รับข้อมูลจากผู้ใช้
+        
         System.out.print("Enter Name: ");
         String name = scanner.nextLine();
 
@@ -17,11 +17,11 @@ public class calGrade {
         System.out.print("Enter Software Testing Score: ");
         int score = scanner.nextInt();
 
-        // คำนวณอายุและเกรด
+        
         int age = calculator.calculateAge(year);
         String grade = calculator.calculateGrade(score);
 
-        // เขียนผลลัพธ์ลงไฟล์
+        
         String outputPath = "Textfile.txt";
         try {
             FileWriter writer = new FileWriter(outputPath);
@@ -36,12 +36,12 @@ public class calGrade {
         }
     }
 
-    // เมธอดคำนวณอายุ
+    
     public int calculateAge(int year) {
-        return 2024 - year; // คำนวณอายุจากปีคริสต์ศักราช
+        return 2024 - year; 
     }
 
-    // เมธอดคำนวณเกรดจากคะแนน
+    
     public String calculateGrade(int score) {
         if (score >= 80) return "A";
         else if (score >= 75) return "B+";
@@ -54,12 +54,12 @@ public class calGrade {
     }
 
     public Integer convertToBuddhistEra(int i) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'convertToBuddhistEra'");
     }
 
     public Object convertToRank(String string) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'convertToRank'");
     }
 }
