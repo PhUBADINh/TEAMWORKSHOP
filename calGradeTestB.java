@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class calGradeTest {
+public class calGradeTestB {
 
     @Test
     public void testCalculateAge() {

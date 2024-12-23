@@ -52,4 +52,14 @@ public class calGrade {
         else if (score >= 50) return "D";
         else return "F";
     }
+
+    public Integer convertToBuddhistEra(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'convertToBuddhistEra'");
+    }
+
+    public Object convertToRank(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'convertToRank'");
+    }
 }
